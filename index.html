@@ -20,7 +20,7 @@
       <div class="container page-header">
         <nav class="nav-header">
           <a href="./index.html " class="logo"
-            ><span class="logo-blue">Web</span>Studio</a
+            ><span class="logo-blue">Web </span>Studio</a
           >
           <ul class="site-nav list">
             <li class="item"><a href="" class="link current">Студия</a></li>
@@ -53,20 +53,21 @@
         <a href="" class="button">Заказать услугу</a>
       </section>
       <!-- Преимущества -->
-      <section class="features">
+      <section class="section features">
         <div class="container">
           <!-- Скрываемый заголок -->
-          <h2 class="section-title">Наши преимущества</h2>
+          <h2 class="section-title visually-hidden">Наши преимущества</h2>
           <ul class="feature-list list">
             <li class="item">
               <img
                 src="./images/antenna.svg"
                 alt="иконка антенна"
-                class="item-image block"
+                width="270"
+                class="item-image"
               />
               <h3 class="feature">Внимание к деталям</h3>
               <p class="desc">
-                Идейные соображения, а также начало повседневной работы по
+                Идейные соображения, и также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
@@ -74,7 +75,8 @@
               <img
                 src="./images/clock.svg"
                 alt="иконка часы"
-                class="item-image block"
+                width="270"
+                class="item-image"
               />
               <h3 class="feature">Пунктуальность</h3>
               <p class="desc">
@@ -86,7 +88,8 @@
               <img
                 src="./images/diagram.svg"
                 alt="иконка диаграмма"
-                class="item-image block"
+                width="270"
+                class="item-image"
               />
               <h3 class="feature">Планирование</h3>
               <p class="desc">
@@ -98,7 +101,8 @@
               <img
                 src="./images/astronaut.svg"
                 alt="иконка астронавт"
-                class="item-image block"
+                width="270"
+                class="item-image"
               />
               <h3 class="feature">Современные технологии</h3>
               <p class="desc">
@@ -110,7 +114,7 @@
         </div>
       </section>
       <!-- Чем мы занимаемся -->
-      <section class="projects">
+      <section class="section projects">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="projects-list list">
@@ -118,9 +122,8 @@
               <img
                 src="./images/laptop.jpg"
                 alt="laptop"
-                width="380"
+                width="370"
                 height="294"
-                class="block"
               />
               <h3 class="type">Десктопные приложения</h3>
             </li>
@@ -128,9 +131,8 @@
               <img
                 src="./images/smartphone.jpg"
                 alt="smartphone"
-                width="380"
+                width="370"
                 height="294"
-                class="block"
               />
               <h3 class="type">Мобильные приложения</h3>
             </li>
@@ -138,9 +140,8 @@
               <img
                 src="./images/monitor.jpg"
                 alt="monitor"
-                width="380"
+                width="370"
                 height="294"
-                class="block"
               />
               <h3 class="type">Дизайнерские решения</h3>
             </li>
@@ -148,17 +149,16 @@
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="team">
+      <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="item">
               <img
-                src="./images/JohnSmith.jpg"
+                class="member-photo"
+                src="./images/johnsmith.jpg"
                 alt="John Smith"
-                width="278"
-                height="260"
-                class="block"
+                width="270"
               />
               <h3 class="member">John Smith</h3>
               <p class="position">Product Designer</p>
@@ -187,11 +187,10 @@
             </li>
             <li class="item">
               <img
-                src="./images/MartaStewart.jpg"
+                class="member-photo"
+                src="./images/martastewart.jpg"
                 alt="Marta Stewart"
-                width="278"
-                height="260"
-                class="block"
+                width="270"
               />
               <h3 class="member">Marta Stewart</h3>
               <p class="position">Frontend Developer</p>
@@ -220,11 +219,10 @@
             </li>
             <li class="item">
               <img
-                src="./images/RobertJakis.jpg"
+                class="member-photo"
+                src="./images/robertjakis.jpg"
                 alt="Robert Jakis"
-                width="278"
-                height="260"
-                class="block"
+                width="270"
               />
               <h3 class="member">Robert Jakis</h3>
               <p class="position">Marketing</p>
@@ -253,11 +251,10 @@
             </li>
             <li class="item">
               <img
-                src="./images/MartinDoe.jpg"
+                class="member-photo"
+                src="./images/martindoe.jpg"
                 alt="Martin Doe"
-                width="278"
-                height="260"
-                class="block"
+                width="270"
               />
               <h3 class="member">Martin Doe</h3>
               <p class="position">UI Designer</p>
@@ -288,7 +285,7 @@
         </div>
       </section>
       <!-- Постоянные клиенты -->
-      <section class="clients">
+      <section class="section clients">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -328,58 +325,53 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-block">
-          <div class="logo-footer">
-            <a href="" class="logo"
-              ><span class="logo-blue">Web</span>
-              <span class="logo-white">Studio</span></a
+      <div class="footer-page container">
+        <div class="logo-and-address">
+          <a href="" class="logo"
+            ><span class="logo-blue">Web</span>
+            <span class="logo-white">Studio</span></a
+          >
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26
+            <a href="mailto:info@example.com" class="link-footer"
+              >info@example.com</a
             >
-            <address class="text">
-              г. Киев, пр-т Леси Украинки, 26 <br />
-              <a href="mailto:info@example.com" class="link-footer"
-                >info@example.com</a
-              >
-              <br />
-              <a href="tel:+380961111111" class="link-footer"
-                >+38 096 111 11 11</a
-              >
-            </address>
-          </div>
-          <div class="socials-footer">
-            <p class="join">Присоединяйтесь</p>
-            <ul class="socials-list list">
-              <li class="item">
-                <a href=""
-                  ><img src="./images/instagramfooter.svg" alt="instagram logo"
-                /></a>
-              </li>
-              <li class="item">
-                <a href=""
-                  ><img src="./images/twitterfooter.svg" alt="twitter logo"
-                /></a>
-              </li>
-              <li class="item">
-                <a href=""
-                  ><img src="./images/facebookfooter.svg" alt="facebook logo"
-                /></a>
-              </li>
-              <li class="item">
-                <a href=""
-                  ><img src="./images/linkedinfooter.svg" alt="linkedin logo"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p class="join">Подпишитесь на рассылку</p>
-            <a href="" class="subscribe">Подписаться</a>
-          </div>
+            <a href="tel:+380961111111" class="link-footer"
+              >+38 096 111 11 11</a
+            >
+          </address>
         </div>
-        <div class="copyright">
-          <p class="copyright">2020 | Developed by GoIT Students</p>
+        <div class="socials-footer">
+          <p class="join">Присоединяйтесь</p>
+          <ul class="socials-list list">
+            <li class="item">
+              <a href=""
+                ><img src="./images/instagramfooter.svg" alt="instagram logo"
+              /></a>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/twitterfooter.svg" alt="twitter logo"
+              /></a>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/facebookfooter.svg" alt="facebook logo"
+              /></a>
+            </li>
+            <li class="item">
+              <a href=""
+                ><img src="./images/linkedinfooter.svg" alt="linkedin logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="join-us">
+          <p class="join">Подпишитесь на рассылку</p>
+          <a href="" class="subscribe">Подписаться</a>
         </div>
       </div>
+      <p class="container copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
